@@ -1,0 +1,389 @@
+  #photo {
+    position: absolute;
+    width: 1240px;
+    height: 1080px;
+    left: 680px;
+    top: 0px;
+    float: right;
+    background: url(img/image_summer.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  #logo {
+    position: absolute;
+    width: 25px;
+    height: 40px;
+    left: 100px;
+    top: 100px;
+  }
+
+  #pineapple {
+    position: absolute;
+    width: 78px;
+    height: 16px;
+    left: 140px;
+    top: 100px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  #heading {
+    position: absolute;
+    width: 399px;
+    height: 44px;
+    left: 140px;
+    top: 374px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #131821;
+  }
+
+  #subheading {
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 140px;
+    top: 433px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6A707B;    
+  }
+
+  #email {
+    position: absolute;
+    padding-left: 4%;
+    width: 663px;
+    height: 70px;
+    left: 100px;
+    top: 539px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+    border-left: 4px solid #4066A5;
+  }
+
+  #email:focus {
+    position: absolute;
+    width: 663px;
+    height: 70px;
+    left: 100px;
+    top: 539px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+    border-left: 4px solid #4066A5;
+  }
+
+  #email:hover {
+    position: absolute;
+    width: 663px;
+    height: 70px;
+    left: 100px;
+    top: 539px;
+    background: #FFFFFF;
+    border: 1px solid #4066A5;
+    box-sizing: border-box;
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+    border-left: 4px solid #4066A5;
+  }
+
+  .form-control.success #email {
+    border-color: #2ecc71;
+  }
+  
+  .form-control.error #email {
+    border-color: #e74c3c;
+  }
+  
+  .form-control i {
+    visibility: hidden;
+    position: absolute;
+    width: 663px;
+    height: 70px;
+    left: 320px;
+    top: 547px;
+  }
+
+  .form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+  }
+  
+  .form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+  }
+  
+  .form-control small {
+    color: #e74c3c;
+    position: absolute;
+    padding-left: 4%;
+    width: 663px;
+    height: 70px;
+    left: 100px;
+    top: 620px;
+    bottom: 0;
+    margin-left: 20px;
+    visibility: hidden;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  #TOS-control small {
+    color: #e74c3c;
+    position: absolute;
+    width: 359px;
+    height: 28px;
+    left: 161px;
+    top: 717px;
+    bottom: 0;
+    visibility: hidden;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  #TOS-control.error small {
+    visibility: visible;
+  }
+
+  .form-control.error small {
+    visibility: visible;
+  }
+
+  ::placeholder {
+    width: 227px;
+    height: 24px;
+    left: 144px;
+    top: 562px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6A707B;
+ }
+
+  #arrow {
+    position: absolute;
+    width: 24px;
+    height: 14px;
+    left: 699px;
+    top: 567px;
+    color: #131821;
+  }
+
+  #checkbox {
+  position: absolute;
+  margin-top: 15px;
+  width: 26px;
+  height: 26px;
+  left: 140px;
+  top: 663px;
+  }
+
+  hr {
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    left: 140px;
+    top: 740px;
+    background: #E3E3E4;
+  }
+
+  #about {
+    position: absolute;
+    width: 42px;
+    height: 26px;
+    left: 331px;
+    top: 114px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6A707B;
+    text-decoration: none;
+  }
+
+  #howItWorks {
+    position: absolute;
+    width: 91px;
+    height: 26px;
+    left: 403px;
+    top: 114px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6A707B;
+    text-decoration: none;
+  }
+
+  #contact {
+    position: absolute;
+    width: 56px;
+    height: 26px;
+    left: 524px;
+    top: 114px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6A707B;
+    text-decoration: none;
+  }
+
+  #TOS {
+    position: absolute;
+    width: 359px;
+    height: 28px;
+    left: 181px;
+    top: 662px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6A707B;
+  }
+
+  #social {
+    position: absolute;
+    width: 244px;
+    height: 46px;
+    left: 218px;
+    top: 791px;
+  }
+
+  .fa-facebook-f {
+    float: inline-start;
+    width: 46px;
+    height: 46px;
+    left: 218px;
+    top: 791px;
+    border: 2px solid #E3E3E4;
+    box-sizing: border-box;
+    
+  }
+
+    .fa-facebook-f:hover {
+    width: 46px;
+    height: 46px;
+    left: 196px;
+    top: 1088px;
+    background: #4267B2;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    }
+
+    .fa-facebook-f:active {
+    width: 46px;
+    height: 46px;
+    left: 292px;
+    top: 1088px;
+    background: #2F4A80;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    }
+
+    .fa-instagram {
+      width: 46px;
+      height: 46px;
+      left: 284px;
+      top: 791px;
+      border: 2px solid #E3E3E4;
+      box-sizing: border-box;
+    }
+
+    .fa-instagram:hover {
+      width: 46px;
+      height: 46px;
+      left: 196px;
+      top: 1184px;
+      background: #C13584;
+      box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    }
+
+    .fa-instagram:active {
+      width: 46px;
+      height: 46px;
+      left: 292px;
+      top: 1184px;
+      background: #8F2762;
+      box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    }
+
+  .fa-twitter {
+    width: 46px;
+    height: 46px;
+    left: 350px;
+    top: 791px;
+    border: 2px solid #E3E3E4;
+    box-sizing: border-box;
+  }
+
+  .fa-twitter:hover {
+    width: 46px;
+    height: 46px;
+    left: 196px;
+    top: 1280px;
+    background: #1DA1F2;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+  }
+
+  .fa-twitter:active {
+    width: 46px;
+    height: 46px;
+    left: 292px;
+    top: 1280px;
+    background: #177FBF;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+  }
+
+  .fa-youtube-play {
+    width: 46px;
+    height: 46px;
+    left: 416px;
+    top: 791px;
+    border: 2px solid #E2E3E4;
+    box-sizing: border-box;
+  }
+
+  .fa-youtube-play:hover {
+    width: 46px;
+    height: 46px;
+    left: 196px;
+    top: 1376px;
+    background: #FF0000;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+  }
+
+  .fa-youtube-play:active {
+    width: 46px;
+    height: 46px;
+    left: 292px;
+    top: 1376px;
+    background: #CC0000;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #131821;
+  }
